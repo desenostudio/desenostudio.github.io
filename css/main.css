@@ -621,16 +621,36 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 100;
+  font-size: 28px;
   line-height: 60px;
   letter-spacing: 1px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.wrap-info img {
+  width: 80%;
 }
 
 .wrap-info span {
-  color: #F75A5A;
-  font-size: 40px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 31px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 6px;
+  border: solid rgba(0, 0, 0, 0.88);
+  padding: 0 10px;
+  transition: all .5s;
+}
+
+.wrap-info span:hover {
+  background: rgba(0, 0, 0, 0.88);
+  color: #fff;
+}
+
+.wrap-info h3 {
+  margin-top: 50px;
 }
 
 /*importing responsive*/
